@@ -12,7 +12,9 @@ html{
 }
 
 body{
+    font-family: 'WDXL Lubrifont SC', sans-serif !important;
     overflow-x: hidden;
+    font-size: 16px;
     background-color: #fff !important;
     margin: 0;
     padding: 0px;
@@ -85,6 +87,7 @@ nav.navbar{
     padding: 20px 20px;
     background-color: #eee !important;
     transition: all 0.3s ease;
+    font-size: 1px;
 } 
 .navbar-expand-lg{
   width: 100vw !important;
@@ -95,7 +98,7 @@ nav.navbar{
 }
 .nav-item{
     margin-right: 50px;
-    font-size: 18px;
+    font-size: 24px;
     
 }
 .nav-link {
@@ -110,10 +113,6 @@ nav.navbar{
   color: #fff !important;
 }
 
-.nav-link.active {
-  background-color: #198754;
-  color: white !important;
-}
 .hero-section {
     background-image: url(../Images/young-man-with-patient-bib-dental-chair-dentist-who-sits-him-he-looks-his-teeth-using-dental-microscope-holds-dental-bur-mirror.jpg);
     background-position: center center;
@@ -556,6 +555,8 @@ nav.navbar{
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   transform: scale(1);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
+  margin-bottom: 20px;
+  margin-left: 5px;
 }
 
 .gallery-card:hover {
