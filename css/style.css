@@ -121,7 +121,7 @@ nav.navbar{
     display: table;
     position: relative;
     width: 100%;
-    height: 800px;
+    height: 900px;
     background-size: cover;
     overflow: hidden;
 }
@@ -130,7 +130,7 @@ nav.navbar{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
-    height: 800px;
+    height: 900px;
     z-index: 0;
 }
 
@@ -163,7 +163,7 @@ nav.navbar{
     padding: 5px 5px;
 }
 .fa-solid {
-    vertical-align: -16em;
+    vertical-align: -19em;
     position: relative;
     animation: example 2s linear 1s infinite forwards;
     color:#fff
