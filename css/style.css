@@ -114,7 +114,7 @@ nav.navbar{
 }
 
 .hero-section {
-    background-image: url(../Images/young-man-with-patient-bib-dental-chair-dentist-who-sits-him-he-looks-his-teeth-using-dental-microscope-holds-dental-bur-mirror.jpg);
+    background-image: url(../Images/young-man-with-patient-bib-dental-chair-dentist-who-sits-him-he-looks-his-teeth-using-dental-microscope-holds-dental-bur-mirror.webp);
     background-position: center center;
     background-repeat: no-repeat;
     display: table;
@@ -596,7 +596,7 @@ nav.navbar{
 }
 /*Contact section*/
 .contact-modern {
-  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url('../Images/dental-implants-surgery-concept-pen-tool-created-clipping-path-included-jpeg-easy-composite.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url('../Images/dental-implants-surgery-concept-pen-tool-created-clipping-path-included-jpeg-easy-composite.webp') center/cover no-repeat;
   position: relative;
   padding: 100px 0;
 }
