@@ -31,11 +31,11 @@ body{
     height: 22px;
     border-radius: 50%;
     background: #0d6efd;
-    animation: bounce 0.4s infinite alternate;
+    animation: bounce 0.7s infinite alternate;
 }
 .balls-loader .ball2 {
     background: #198754;
-    animation-delay: 0.4s;
+    animation-delay: 0.2s;
 }
 .balls-loader .ball3 {
     background: #ffc107;
@@ -46,10 +46,47 @@ body{
     100% { transform: translateY(-40px);}
 }
 
+/* Intersection Observer Animations */
+.fade-in {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s cubic-bezier(.4,0,.2,1), transform 0.8s cubic-bezier(.4,0,.2,1);
+}
+.fade-in.visible {
+    opacity: 1;
+    transform: none;
+}
+.spin-in {
+    opacity: 0;
+    transform: rotate(-180deg) scale(0.7);
+    transition: opacity 0.8s, transform 0.8s;
+}
+.spin-in.visible {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+}
+.slide-left {
+    opacity: 0;
+    transform: translateX(-60px);
+    transition: opacity 0.8s, transform 0.8s;
+}
+.slide-left.visible {
+    opacity: 1;
+    transform: none;
+}
+.slide-right {
+    opacity: 0;
+    transform: translateX(60px);
+    transition: opacity 0.8s, transform 0.8s;
+}
+.slide-right.visible {
+    opacity: 1;
+    transform: none;
+}
 nav.navbar{
     padding: 20px 20px;
     background-color: #eee !important;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
     font-size: 1px;
 } 
 .navbar-expand-lg{
@@ -77,6 +114,39 @@ nav.navbar{
 }
 
 
+.fa-solid {
+    vertical-align: -19em;
+    position: relative;
+    animation: example 2s linear 1s infinite forwards;
+    color:#fff
+}
+
+@keyframes example {
+    0% {
+        top: 0px;
+        opacity: 0px;
+    }
+
+    25% {
+        top: 0px;
+        opacity: 0.1;
+    }
+
+    50% {
+        top: 25px;
+        opacity: 0.7;
+    }
+
+    75% {
+        top: 40px;
+        opacity: 0.5;
+    }
+
+    100% {
+        top: 50px;
+        opacity: 0;
+    }
+}
 /* Full section with dotted background */
 .about-section {
   position: relative;
