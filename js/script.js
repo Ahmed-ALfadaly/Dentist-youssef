@@ -37,4 +37,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
- 
+  // Disable focus scroll into view behavior
+  document.querySelectorAll('.accordion-button').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const active = document.activeElement;
+      if (active) active.blur(); // prevent jump to element
+    });
+  });
